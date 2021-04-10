@@ -33,7 +33,7 @@ class CommonService {
         this.url = '/uploads/music/dog';
     }
     getMusic() {
-        return this.http.get(this.url, { responseType: 'json' });
+        return this.http.get(this.url, { responseType: 'txet' });
     }
 }
 CommonService.ɵfac = function CommonService_Factory(t) { return new (t || CommonService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
